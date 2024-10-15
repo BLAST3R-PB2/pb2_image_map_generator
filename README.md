@@ -1,5 +1,7 @@
 # Plazma Burst 2 Image Map Generator
 
+![map_preview_jpg](https://github.com/user-attachments/assets/c1288255-fb26-4aef-a809-47ec238638f0)
+
 This project is a Python script that processes images to create a corresponding map for the game **Plazma Burst 2**. It resizes images, extracts pixel colors, and generates an XML map file containing movables and triggers based on the pixel data.
 
 ## Features
