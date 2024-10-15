@@ -33,15 +33,27 @@ pip install Pillow
 
 ## Usage
 
-1. Place your input image in the `input` directory. You can rename `flytrap.jpeg` to your desired image name or replace it with your own image (just update the script accordingly).
+1. Clone the repository to your local machine:
 
-2. Run the script:
+```bash
+git clone https://github.com/BLAST3R-PB2/pb2_image_map_generator.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd pb2_image_map_generator
+```
+
+3. Place your input image in the `input` directory. You can rename `flytrap.jpeg` to your desired image name or replace it with your own image (just update the script accordingly).
+
+4. Run the script:
 
 ```bash
 python image_map_generator.py
 ```
 
-3. The script will output:
+5. The script will output:
    - A resized version of your image in the `input` directory.
    - A `pixel_colors_hex.txt` file containing the HEX values of the pixels.
    - An XML file (`image_map.xml`) in the `output` directory, which contains the map data for Plazma Burst 2.
